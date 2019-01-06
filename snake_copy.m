@@ -4,7 +4,7 @@ function snake(x,y,fps)
   axis equal                          %坐標軸等長
   axis(0.5+[0 L 0 L])                 %坐標軸邊界
   hold on                             %固定坐標軸
-  %% snake
+%% snake
   sz = 300;                           %蛇頭大小
   pos = [x y];                        %蛇頭位置
   dir = [1 0];                        %蛇頭方向
